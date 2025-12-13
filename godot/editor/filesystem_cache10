@@ -1,86 +1,87 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765653837
-export_presets.cfg::TextFile::-1::1765650272::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D::4694586819433611686::1765471101::1765651959::1::::<><><>0<>0<>f7ff26010a2aa62004a6e18b985f423f<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-icon_cmd.svg::CompressedTexture2D::1420609500477984287::1765471391::1765651958::1::::<><><>0<>0<>f230c1107a9204643d3e1132fac217f3<>res://godot/imported/icon_cmd.svg-578833de4ed16b5b14f2cecea5d8134e.ctex::
-::res://assets/::1765653825
-::res://assets/audios/::1765651961
-01.ogg::AudioStreamOggVorbis::7071230698396302698::1765393902::1765651955::1::::<><><>0<>0<>9892324dfbe6b733f0e451c6f9d6fe8b<>res://godot/imported/01.ogg-4f7563df7c65254f60eafa3ab98b220d.oggvorbisstr::
-02.ogg::AudioStreamOggVorbis::8886356964947221237::1765393902::1765651955::1::::<><><>0<>0<>27dab481dc28f672b07307c52e8657e2<>res://godot/imported/02.ogg-0d5b4d18b8e4b7190bc6c2d0ce0a732b.oggvorbisstr::
-02_fail.ogg::AudioStreamOggVorbis::5778074322718402907::1765393902::1765651955::1::::<><><>0<>0<>a9b66ce2e427bac0d5e9c9e36ab615d7<>res://godot/imported/02_fail.ogg-f3deaf748ac22db0180dffefae33e5c9.oggvorbisstr::
-02_final.ogg::AudioStreamOggVorbis::2523653637310356950::1765393902::1765651955::1::::<><><>0<>0<>409e5e15b0c0bc77bc5d047bea0e61d3<>res://godot/imported/02_final.ogg-a0b14566f26be269fb367b97313ea761.oggvorbisstr::
-03.ogg::AudioStreamOggVorbis::7516191628021362748::1765393902::1765651955::1::::<><><>0<>0<>3ff78f09df0a43819411864492cc3736<>res://godot/imported/03.ogg-e29bcc96f45219e847f15d75140709c4.oggvorbisstr::
-03_fail.ogg::AudioStreamOggVorbis::6468977910625747177::1765393902::1765651955::1::::<><><>0<>0<>d52d56867267a590782d29047f8919d5<>res://godot/imported/03_fail.ogg-c759798df51080202358e103e3df3bd2.oggvorbisstr::
-MainMenu.mp3::AudioStreamMP3::2540438513145480293::1765563778::1765651954::1::::<><><>0<>0<>6f1e3936791f03295f2aeeb025902567<>res://godot/imported/MainMenu.mp3-4e3805252f0f2a6ddcc462eb662f537b.mp3str::
-readme_file.wav::AudioStreamWAV::2915804565623104737::1765394134::1765651961::1::::<><><>0<>0<>b8b67da43a54fc8c482a077ff2322915<>res://godot/imported/readme_file.wav-53d327fc7ae3d362d43c5ca381051086.sample::
-::res://assets/fonts/::1765651954
-C&C Red Alert [INET].ttf::FontFile::5872483378205636785::1765471723::1765651954::1::::<><><>0<>0<>0b852c3b9870b43df22f041e493a9315<>res://godot/imported/C&C Red Alert [INET].ttf-d2bcc4961852cd5f846629f2e5689461.fontdata::
-C&C Red Alert [LAN].ttf::FontFile::8263620856737559849::1765471723::1765651954::1::::<><><>0<>0<>f3b9eff9adc449bafab789ac0c6afa9c<>res://godot/imported/C&C Red Alert [LAN].ttf-eac65f4b192bb2ea843230e794588495.fontdata::
-::res://assets/icons/::1765654996
-satelite1.png::CompressedTexture2D::404942241545024727::1765654976::1765654996::1::::<><><>0<>0<>99260ec780ab2775238cae9f3bed1b9c<>res://godot/imported/satelite1.png-fdf3b24db1e9dac3993fa64e12cd1882.ctex::
-satelite2.png::CompressedTexture2D::7649952374852248483::1765654928::1765654996::1::::<><><>0<>0<>d1ddce1200fe6d5041c73e4ba1e43a26<>res://godot/imported/satelite2.png-e156607a90c77828697f26a9edefce80.ctex::
-satelite3.png::CompressedTexture2D::2180730112251065347::1765654961::1765654996::1::::<><><>0<>0<>ae562d9e2aa11583dc9c968d3041fff3<>res://godot/imported/satelite3.png-5aac3bf25a4a969eec30607e23cd14fa.ctex::
-satelite.png::CompressedTexture2D::5802136089806289354::1765654989::1765654996::1::::<><><>0<>0<>c4fa8ef3f5b007605e27daf2a2f10e51<>res://godot/imported/satelite.png-671d2c3bc762a78a21c5410a6967df78.ctex::
-::res://assets/mail/::1765651961
-bin-svgrepo-com.svg::CompressedTexture2D::6443305512547445860::1765560881::1765651958::1::::<><><>0<>0<>7fce27f2655ba0987f22464b0a7a7806<>res://godot/imported/bin-svgrepo-com.svg-db9b7e7a98c177444158de45c1abef3f.ctex::
-mail-alt-3-svgrepo-com.svg::CompressedTexture2D::2803702503239255010::1765551170::1765651958::1::::<><><>0<>0<>74ef7dc73336fdd76dc9659e77132d5f<>res://godot/imported/mail-alt-3-svgrepo-com.svg-b41b1f60635f45a65578315942356970.ctex::
-mail-arrow-down-svgrepo-com.svg::CompressedTexture2D::2527526052695318564::1765551170::1765651959::1::::<><><>0<>0<>3e5fdb675fd582e316160a7e7ffdb7cd<>res://godot/imported/mail-arrow-down-svgrepo-com.svg-b09b81442250bd25257d8986390a3f97.ctex::
-mail-block-svgrepo-com.svg::CompressedTexture2D::5952002664150288884::1765551170::1765651959::1::::<><><>0<>0<>b7f78f6f964a6f35841800f6c5aa6c6c<>res://godot/imported/mail-block-svgrepo-com.svg-05d74a46d52f4e74850c0dc009caff70.ctex::
-mail-bookmark-svgrepo-com.svg::CompressedTexture2D::6189014308575721416::1765551170::1765651959::1::::<><><>0<>0<>db443e019f1374f84c99f8f235764c84<>res://godot/imported/mail-bookmark-svgrepo-com.svg-381e090c05c89e868d70b1c71a7521a8.ctex::
-mail-check-svgrepo-com (1).svg::CompressedTexture2D::5274866974325585032::1765551170::1765651959::1::::<><><>0<>0<>3f100249a2fb070ef087c527f14ba50f<>res://godot/imported/mail-check-svgrepo-com (1).svg-09107aadd0b590eba39f5f0382f7133b.ctex::
-mail-check-svgrepo-com.svg::CompressedTexture2D::6243527664679216082::1765551170::1765651960::1::::<><><>0<>0<>b867a9f05aa62305a66b23c311b0eb44<>res://godot/imported/mail-check-svgrepo-com.svg-7c6459bbf128360ca5f68651ad1058b2.ctex::
-mail-exclamation-svgrepo-com.svg::CompressedTexture2D::9003778472814599087::1765551170::1765651960::1::::<><><>0<>0<>12014817bc0e745ef9e491efbdf75c87<>res://godot/imported/mail-exclamation-svgrepo-com.svg-076d0481d3cf795503a1e0d2e581d864.ctex::
-mail-info-svgrepo-com.svg::CompressedTexture2D::2546461433278629920::1765551170::1765651960::1::::<><><>0<>0<>8e5985bb1b0581e40a01b69bafa699e7<>res://godot/imported/mail-info-svgrepo-com.svg-a96df59f7392189a38d83be2ea25fa84.ctex::
-mail-lock-svgrepo-com.svg::CompressedTexture2D::6154054777036378896::1765551170::1765651960::1::::<><><>0<>0<>c4c9eaa4157f09cd3bfe4f0450722c64<>res://godot/imported/mail-lock-svgrepo-com.svg-72763d32ca685b1e768fffc60bc590c8.ctex::
-mail-minus-svgrepo-com.svg::CompressedTexture2D::8859882047152667165::1765551170::1765651960::1::::<><><>0<>0<>cbe5d6704ab25446621c3975087a7127<>res://godot/imported/mail-minus-svgrepo-com.svg-3f3f2f6dba9e7bbcf8ab015bb32e7efa.ctex::
-mail-notification-svgrepo-com.svg::CompressedTexture2D::6699343712884358245::1765551170::1765651961::1::::<><><>0<>0<>c27fe8700b0ea8982e0cccdc48c89995<>res://godot/imported/mail-notification-svgrepo-com.svg-b07db90ac5d9ee56c866d44462b3d8f5.ctex::
-mail-open-alt-1-svgrepo-com.svg::CompressedTexture2D::8621146059710522361::1765551170::1765651961::1::::<><><>0<>0<>620c6e4ae8100968ca104bb46f3d6c90<>res://godot/imported/mail-open-alt-1-svgrepo-com.svg-0fff4e5a684a253c94cf1515622de8ab.ctex::
-mail-open-alt-svgrepo-com.svg::CompressedTexture2D::6553098886960383309::1765551170::1765651961::1::::<><><>0<>0<>8c52fa5c0ba18a880a7ce7a9015aaee6<>res://godot/imported/mail-open-alt-svgrepo-com.svg-ff7361790fd6ffb05e7226692d0cef51.ctex::
-mail-open-arrow-down-svgrepo-com.svg::CompressedTexture2D::1367693450355414388::1765551170::1765651961::1::::<><><>0<>0<>7e521f21b7a0463b3e8591e998be4ffe<>res://godot/imported/mail-open-arrow-down-svgrepo-com.svg-8a7e5ea0d63dbda74f7e9bb384411dca.ctex::
-mail-open-arrow-up-svgrepo-com.svg::CompressedTexture2D::3350279749722507134::1765551170::1765651961::1::::<><><>0<>0<>5bb7e174866203913d96a17da571b2b8<>res://godot/imported/mail-open-arrow-up-svgrepo-com.svg-5ab74e697ced525d9a40f91a120b1dad.ctex::
-mail-open-check-svgrepo-com.svg::CompressedTexture2D::1762956115806674145::1765551170::1765651956::1::::<><><>0<>0<>a094108bcf8f39b9f7ea54f7e72bdc0a<>res://godot/imported/mail-open-check-svgrepo-com.svg-d723d94f146ca85c41c5cfe256e63339.ctex::
-mail-open-exclamation-svgrepo-com.svg::CompressedTexture2D::1588142727370238199::1765551170::1765651956::1::::<><><>0<>0<>fa8a7ebc9fbf2eeb3286eaab20f6b764<>res://godot/imported/mail-open-exclamation-svgrepo-com.svg-b6774b4764d0e2aad0ad5a9c1518caea.ctex::
-mail-open-info-svgrepo-com.svg::CompressedTexture2D::4055881480266823938::1765551170::1765651956::1::::<><><>0<>0<>e4fad0f70fa54e855979ef689e7f5301<>res://godot/imported/mail-open-info-svgrepo-com.svg-38aa81fc3837fdba1238953df13484ba.ctex::
-mail-open-minus-svgrepo-com.svg::CompressedTexture2D::6003548800871338044::1765551170::1765651956::1::::<><><>0<>0<>b02ccdeec7c4096bb00ac79903c91bac<>res://godot/imported/mail-open-minus-svgrepo-com.svg-cbb78a8bba0afc808fdf7a3320dfe775.ctex::
-mail-open-plus-svgrepo-com.svg::CompressedTexture2D::8545551947870507119::1765551170::1765651956::1::::<><><>0<>0<>e50306c590fba901a82d597514049002<>res://godot/imported/mail-open-plus-svgrepo-com.svg-f5e5c5c8de4b7a1af801c3f7d0328b93.ctex::
-mail-open-svgrepo-com.svg::CompressedTexture2D::7412593659042261632::1765551170::1765651956::1::::<><><>0<>0<>dabb8831de2c48cd4904e7c3757f72c8<>res://godot/imported/mail-open-svgrepo-com.svg-aa6186a6447e2e9060447020c32733c3.ctex::
-mail-open-xmark-svgrepo-com.svg::CompressedTexture2D::3696795259796012386::1765551170::1765651957::1::::<><><>0<>0<>0bd67ee84aba0d7fad5ea08a06067cce<>res://godot/imported/mail-open-xmark-svgrepo-com.svg-4a7a1338125dc49e9b693c3e5cf7b046.ctex::
-mail-pencil-svgrepo-com.svg::CompressedTexture2D::6289459871760617109::1765551170::1765651957::1::::<><><>0<>0<>a07e1941e4ee612a4a6f7582a49dac96<>res://godot/imported/mail-pencil-svgrepo-com.svg-89f05e17cc95dbf679a60556316900ff.ctex::
-mail-plus-svgrepo-com.svg::CompressedTexture2D::345294210080571655::1765551170::1765651957::1::::<><><>0<>0<>0ec961ed6e56d81b94977411698d1f66<>res://godot/imported/mail-plus-svgrepo-com.svg-69643160d0f6b74323b67c4d1f8e8e9a.ctex::
-mail-refresh-svgrepo-com.svg::CompressedTexture2D::2096979169149306147::1765551170::1765651957::1::::<><><>0<>0<>4bd58ff75da81a6030d276f6aaa89b51<>res://godot/imported/mail-refresh-svgrepo-com.svg-dd0b737d44fcf6c808427e7ba56da00b.ctex::
-mail-search-svgrepo-com.svg::CompressedTexture2D::4350831767925249993::1765551170::1765651957::1::::<><><>0<>0<>daed2ae20129f01d1640fcedd0f651a2<>res://godot/imported/mail-search-svgrepo-com.svg-725278f19e448041217c1a18b799d932.ctex::
-mail-shield-svgrepo-com.svg::CompressedTexture2D::2607400242113434343::1765551170::1765651957::1::::<><><>0<>0<>a62ac5de19ff7dfd30968d9faabd5354<>res://godot/imported/mail-shield-svgrepo-com.svg-d0098c663744a82dafc80f8e816e03c4.ctex::
-mail-star-svgrepo-com.svg::CompressedTexture2D::5026730528258381257::1765551170::1765651958::1::::<><><>0<>0<>a14811cdf29f99a629f67f2fbcd6cb7b<>res://godot/imported/mail-star-svgrepo-com.svg-b4029d09f1909cb023db150a3a7ac190.ctex::
-mail-xmark-svgrepo-com.svg::CompressedTexture2D::3398839294147973601::1765551170::1765651958::1::::<><><>0<>0<>1aede525e1546a3d676b43402a1251be<>res://godot/imported/mail-xmark-svgrepo-com.svg-4363530ef38adcdaa9c44096cf65ba3c.ctex::
-::res://assets/videos/::1765658002
-01.ogv::VideoStreamTheora::2611298928760419352::1765393172::0::1::::<><><>0<>0<><>::
-02_fail.ogv::VideoStreamTheora::5639582595023313560::1765393625::0::1::::<><><>0<>0<><>::
-02_final.ogv::VideoStreamTheora::3885835819819841945::1765393625::0::1::::<><><>0<>0<><>::
-03.ogv::VideoStreamTheora::1966431629397969198::1765393625::0::1::::<><><>0<>0<><>::
-03_fail.ogv::VideoStreamTheora::4520885587317831517::1765393625::0::1::::<><><>0<>0<><>::
-rickroll-roll.ogv::VideoStreamTheora::2966135811773731235::1765658002::0::1::::<><><>0<>0<><>::
-::res://scenes/::1765658404
-01_ip.tscn::PackedScene::5297551490476810474::1765650099::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
-02_ip.tscn::PackedScene::782403196907386524::1765650098::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
-incorrect_02.tscn::PackedScene::716701344709521435::1765467863::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://cok7bmesotexf::::res://assets/audios/02_fail.ogg<>uid://cml4dpg5x6x5y::::res://assets/videos/02_fail.ogv
-incorrect_03.tscn::PackedScene::7783500001783516420::1765555938::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://cyfved7c3rey8::::res://assets/audios/03_fail.ogg<>uid://b5n7lb3i3sqrl::::res://assets/videos/03_fail.ogv
-loading_01.tscn::PackedScene::2524338991806488852::1765469760::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://c70mev1k7jmja::::res://assets/audios/01.ogg<>uid://bdg6yg5g63kgu::::res://assets/videos/01.ogv
-loading_02.tscn::PackedScene::9036091302537496039::1765555938::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://bb7qha68or1e5::::res://assets/audios/02_final.ogg<>uid://bvmlfbl3a0m0p::::res://assets/videos/02_final.ogv
-loading_03.tscn::PackedScene::1313029585077898039::1765555938::0::1::::<><><>0<>0<><>::uid://cq15f6pf3u72v::::res://scripts/loading_03.gd<>uid://dfc5twfdb6ehw::::res://assets/audios/03.ogg<>uid://3as3u6xyw7vu::::res://assets/videos/03.ogv
-mail_menu.tscn::PackedScene::4229160337257124605::1765650181::0::1::::<><><>0<>0<><>::uid://q330vjpx25pq::::res://scripts/mail_placeholder.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://d1jq6e4vnjb24::::res://assets/mail/mail-exclamation-svgrepo-com.svg
-menu.tscn::PackedScene::7479688109274832689::1765656876::0::1::::<><><>0<>0<><>::uid://dpeyf0lc3j1ix::::res://scripts/menu.gd<>uid://b1ivwgyjdjj7b::::res://scenes/mail_menu.tscn<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://bf7etnu7m52f3::::res://assets/mail/mail-alt-3-svgrepo-com.svg<>uid://bcguwey0tsy6h::::res://assets/audios/MainMenu.mp3<>uid://crb84ebasihxs::::res://scenes/comunication_label.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://c5urnshd54tmk::::res://scenes/communications_menu.tscn
-comunication_label.gd::GDScript::5970171747433930076::1765656132::0::1::::<>Label<><>0<>0<><>::
-communications_menu.tscn::PackedScene::6920850592217654742::1765658404::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scenes/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scenes/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
-communications_menu.gd::GDScript::4307755353081432488::1765658069::0::1::::<>Control<><>0<>0<><>::
-comunication_label_loading.gd::GDScript::1216291834314466374::1765658587::0::1::::<>Label<><>0<>0<><>::
-startup.gd::GDScript::7359240692710477611::1765655835::0::1::::<>Node<><>0<>0<><>::
-startup.tscn::PackedScene::3080380001933740649::1765658587::0::1::::<><><>0<>0<><>::uid://dc34vbtt550n4::::res://scenes/startup.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scenes/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png
-::res://scripts/::1765658461
-01_ip.gd::GDScript::1175871476647146124::1765658587::0::1::::<>Control<><>0<>0<><>::
-02_ip.gd::GDScript::5714453254423006755::1765658587::0::1::::<>Control<><>0<>0<><>::
-icon_cmd.svg::CompressedTexture2D::7804907881338045822::1765471408::1765651958::1::::<><><>0<>0<>256d28b42bea42760ebb976735dc9782<>res://godot/imported/icon_cmd.svg-aaf3cea2cee040b56cfb002e90641bd6.ctex::
-loading_01.gd::GDScript::7840423184765305298::1765658587::0::1::::<>Control<><>0<>0<><>::
-loading_02.gd::GDScript::1111307366598750138::1765658587::0::1::::<>Control<><>0<>0<><>::
-loading_03.gd::GDScript::5951368777614132075::1765658587::0::1::::<>Control<><>0<>0<><>::
-mail_placeholder.gd::GDScript::1182569913574231534::1765653582::0::1::::<>Control<><>0<>0<><>::
-menu.gd::GDScript::8221819683667222167::1765658461::0::1::::<>Control<><>0<>0<><>::
+::res://::1765661014
+export_presets.cfg::TextFile::-1::1765660478::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D::4694586819433611686::1765660479::1765660985::1::::<><><>0<>0<>f7ff26010a2aa62004a6e18b985f423f<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+icon_cmd.svg::CompressedTexture2D::1420609500477984287::1765660479::1765660984::1::::<><><>0<>0<>f230c1107a9204643d3e1132fac217f3<>res://godot/imported/icon_cmd.svg-578833de4ed16b5b14f2cecea5d8134e.ctex::
+README.md::TextFile::-1::1765530822::0::1::::<><><>0<>0<><>::
+::res://assets/::1765660477
+::res://assets/audios/::1765660986
+01.ogg::AudioStreamOggVorbis::7071230698396302698::1765660477::1765660983::1::::<><><>0<>0<>9892324dfbe6b733f0e451c6f9d6fe8b<>res://godot/imported/01.ogg-4f7563df7c65254f60eafa3ab98b220d.oggvorbisstr::
+02.ogg::AudioStreamOggVorbis::8886356964947221237::1765660477::1765660983::1::::<><><>0<>0<>27dab481dc28f672b07307c52e8657e2<>res://godot/imported/02.ogg-0d5b4d18b8e4b7190bc6c2d0ce0a732b.oggvorbisstr::
+02_fail.ogg::AudioStreamOggVorbis::5778074322718402907::1765660477::1765660983::1::::<><><>0<>0<>a9b66ce2e427bac0d5e9c9e36ab615d7<>res://godot/imported/02_fail.ogg-f3deaf748ac22db0180dffefae33e5c9.oggvorbisstr::
+02_final.ogg::AudioStreamOggVorbis::2523653637310356950::1765660477::1765660983::1::::<><><>0<>0<>409e5e15b0c0bc77bc5d047bea0e61d3<>res://godot/imported/02_final.ogg-a0b14566f26be269fb367b97313ea761.oggvorbisstr::
+03.ogg::AudioStreamOggVorbis::7516191628021362748::1765660477::1765660983::1::::<><><>0<>0<>3ff78f09df0a43819411864492cc3736<>res://godot/imported/03.ogg-e29bcc96f45219e847f15d75140709c4.oggvorbisstr::
+03_fail.ogg::AudioStreamOggVorbis::6468977910625747177::1765660477::1765660983::1::::<><><>0<>0<>d52d56867267a590782d29047f8919d5<>res://godot/imported/03_fail.ogg-c759798df51080202358e103e3df3bd2.oggvorbisstr::
+MainMenu.mp3::AudioStreamMP3::2540438513145480293::1765660477::1765660983::1::::<><><>0<>0<>6f1e3936791f03295f2aeeb025902567<>res://godot/imported/MainMenu.mp3-4e3805252f0f2a6ddcc462eb662f537b.mp3str::
+readme_file.wav::AudioStreamWAV::2915804565623104737::1765660477::1765660986::1::::<><><>0<>0<>b8b67da43a54fc8c482a077ff2322915<>res://godot/imported/readme_file.wav-53d327fc7ae3d362d43c5ca381051086.sample::
+::res://assets/fonts/::1765660983
+C&C Red Alert [INET].ttf::FontFile::5872483378205636785::1765660477::1765660983::1::::<><><>0<>0<>0b852c3b9870b43df22f041e493a9315<>res://godot/imported/C&C Red Alert [INET].ttf-d2bcc4961852cd5f846629f2e5689461.fontdata::
+C&C Red Alert [LAN].ttf::FontFile::8263620856737559849::1765660477::1765660983::1::::<><><>0<>0<>f3b9eff9adc449bafab789ac0c6afa9c<>res://godot/imported/C&C Red Alert [LAN].ttf-eac65f4b192bb2ea843230e794588495.fontdata::
+::res://assets/icons/::1765660984
+satelite1.png::CompressedTexture2D::404942241545024727::1765660477::1765660984::1::::<><><>0<>0<>99260ec780ab2775238cae9f3bed1b9c<>res://godot/imported/satelite1.png-fdf3b24db1e9dac3993fa64e12cd1882.ctex::
+satelite2.png::CompressedTexture2D::7649952374852248483::1765660477::1765660984::1::::<><><>0<>0<>d1ddce1200fe6d5041c73e4ba1e43a26<>res://godot/imported/satelite2.png-e156607a90c77828697f26a9edefce80.ctex::
+satelite3.png::CompressedTexture2D::2180730112251065347::1765660477::1765660984::1::::<><><>0<>0<>ae562d9e2aa11583dc9c968d3041fff3<>res://godot/imported/satelite3.png-5aac3bf25a4a969eec30607e23cd14fa.ctex::
+satelite.png::CompressedTexture2D::5802136089806289354::1765660477::1765660984::1::::<><><>0<>0<>c4fa8ef3f5b007605e27daf2a2f10e51<>res://godot/imported/satelite.png-671d2c3bc762a78a21c5410a6967df78.ctex::
+::res://assets/mail/::1765660986
+bin-svgrepo-com.svg::CompressedTexture2D::6443305512547445860::1765660477::1765660985::1::::<><><>0<>0<>7fce27f2655ba0987f22464b0a7a7806<>res://godot/imported/bin-svgrepo-com.svg-db9b7e7a98c177444158de45c1abef3f.ctex::
+mail-alt-3-svgrepo-com.svg::CompressedTexture2D::2803702503239255010::1765660477::1765660985::1::::<><><>0<>0<>74ef7dc73336fdd76dc9659e77132d5f<>res://godot/imported/mail-alt-3-svgrepo-com.svg-b41b1f60635f45a65578315942356970.ctex::
+mail-arrow-down-svgrepo-com.svg::CompressedTexture2D::2527526052695318564::1765660477::1765660985::1::::<><><>0<>0<>3e5fdb675fd582e316160a7e7ffdb7cd<>res://godot/imported/mail-arrow-down-svgrepo-com.svg-b09b81442250bd25257d8986390a3f97.ctex::
+mail-block-svgrepo-com.svg::CompressedTexture2D::5952002664150288884::1765660477::1765660985::1::::<><><>0<>0<>b7f78f6f964a6f35841800f6c5aa6c6c<>res://godot/imported/mail-block-svgrepo-com.svg-05d74a46d52f4e74850c0dc009caff70.ctex::
+mail-bookmark-svgrepo-com.svg::CompressedTexture2D::6189014308575721416::1765660477::1765660985::1::::<><><>0<>0<>db443e019f1374f84c99f8f235764c84<>res://godot/imported/mail-bookmark-svgrepo-com.svg-381e090c05c89e868d70b1c71a7521a8.ctex::
+mail-check-svgrepo-com (1).svg::CompressedTexture2D::5274866974325585032::1765660477::1765660985::1::::<><><>0<>0<>3f100249a2fb070ef087c527f14ba50f<>res://godot/imported/mail-check-svgrepo-com (1).svg-09107aadd0b590eba39f5f0382f7133b.ctex::
+mail-check-svgrepo-com.svg::CompressedTexture2D::6243527664679216082::1765660477::1765660985::1::::<><><>0<>0<>b867a9f05aa62305a66b23c311b0eb44<>res://godot/imported/mail-check-svgrepo-com.svg-7c6459bbf128360ca5f68651ad1058b2.ctex::
+mail-exclamation-svgrepo-com.svg::CompressedTexture2D::9003778472814599087::1765660477::1765660985::1::::<><><>0<>0<>12014817bc0e745ef9e491efbdf75c87<>res://godot/imported/mail-exclamation-svgrepo-com.svg-076d0481d3cf795503a1e0d2e581d864.ctex::
+mail-info-svgrepo-com.svg::CompressedTexture2D::2546461433278629920::1765660477::1765660985::1::::<><><>0<>0<>8e5985bb1b0581e40a01b69bafa699e7<>res://godot/imported/mail-info-svgrepo-com.svg-a96df59f7392189a38d83be2ea25fa84.ctex::
+mail-lock-svgrepo-com.svg::CompressedTexture2D::6154054777036378896::1765660477::1765660985::1::::<><><>0<>0<>c4c9eaa4157f09cd3bfe4f0450722c64<>res://godot/imported/mail-lock-svgrepo-com.svg-72763d32ca685b1e768fffc60bc590c8.ctex::
+mail-minus-svgrepo-com.svg::CompressedTexture2D::8859882047152667165::1765660477::1765660985::1::::<><><>0<>0<>cbe5d6704ab25446621c3975087a7127<>res://godot/imported/mail-minus-svgrepo-com.svg-3f3f2f6dba9e7bbcf8ab015bb32e7efa.ctex::
+mail-notification-svgrepo-com.svg::CompressedTexture2D::6699343712884358245::1765660477::1765660985::1::::<><><>0<>0<>c27fe8700b0ea8982e0cccdc48c89995<>res://godot/imported/mail-notification-svgrepo-com.svg-b07db90ac5d9ee56c866d44462b3d8f5.ctex::
+mail-open-alt-1-svgrepo-com.svg::CompressedTexture2D::8621146059710522361::1765660477::1765660986::1::::<><><>0<>0<>620c6e4ae8100968ca104bb46f3d6c90<>res://godot/imported/mail-open-alt-1-svgrepo-com.svg-0fff4e5a684a253c94cf1515622de8ab.ctex::
+mail-open-alt-svgrepo-com.svg::CompressedTexture2D::6553098886960383309::1765660477::1765660986::1::::<><><>0<>0<>8c52fa5c0ba18a880a7ce7a9015aaee6<>res://godot/imported/mail-open-alt-svgrepo-com.svg-ff7361790fd6ffb05e7226692d0cef51.ctex::
+mail-open-arrow-down-svgrepo-com.svg::CompressedTexture2D::1367693450355414388::1765660477::1765660983::1::::<><><>0<>0<>7e521f21b7a0463b3e8591e998be4ffe<>res://godot/imported/mail-open-arrow-down-svgrepo-com.svg-8a7e5ea0d63dbda74f7e9bb384411dca.ctex::
+mail-open-arrow-up-svgrepo-com.svg::CompressedTexture2D::3350279749722507134::1765660477::1765660983::1::::<><><>0<>0<>5bb7e174866203913d96a17da571b2b8<>res://godot/imported/mail-open-arrow-up-svgrepo-com.svg-5ab74e697ced525d9a40f91a120b1dad.ctex::
+mail-open-check-svgrepo-com.svg::CompressedTexture2D::1762956115806674145::1765660477::1765660983::1::::<><><>0<>0<>a094108bcf8f39b9f7ea54f7e72bdc0a<>res://godot/imported/mail-open-check-svgrepo-com.svg-d723d94f146ca85c41c5cfe256e63339.ctex::
+mail-open-exclamation-svgrepo-com.svg::CompressedTexture2D::1588142727370238199::1765660477::1765660984::1::::<><><>0<>0<>fa8a7ebc9fbf2eeb3286eaab20f6b764<>res://godot/imported/mail-open-exclamation-svgrepo-com.svg-b6774b4764d0e2aad0ad5a9c1518caea.ctex::
+mail-open-info-svgrepo-com.svg::CompressedTexture2D::4055881480266823938::1765660477::1765660984::1::::<><><>0<>0<>e4fad0f70fa54e855979ef689e7f5301<>res://godot/imported/mail-open-info-svgrepo-com.svg-38aa81fc3837fdba1238953df13484ba.ctex::
+mail-open-minus-svgrepo-com.svg::CompressedTexture2D::6003548800871338044::1765660477::1765660984::1::::<><><>0<>0<>b02ccdeec7c4096bb00ac79903c91bac<>res://godot/imported/mail-open-minus-svgrepo-com.svg-cbb78a8bba0afc808fdf7a3320dfe775.ctex::
+mail-open-plus-svgrepo-com.svg::CompressedTexture2D::8545551947870507119::1765660477::1765660984::1::::<><><>0<>0<>e50306c590fba901a82d597514049002<>res://godot/imported/mail-open-plus-svgrepo-com.svg-f5e5c5c8de4b7a1af801c3f7d0328b93.ctex::
+mail-open-svgrepo-com.svg::CompressedTexture2D::7412593659042261632::1765660477::1765660984::1::::<><><>0<>0<>dabb8831de2c48cd4904e7c3757f72c8<>res://godot/imported/mail-open-svgrepo-com.svg-aa6186a6447e2e9060447020c32733c3.ctex::
+mail-open-xmark-svgrepo-com.svg::CompressedTexture2D::3696795259796012386::1765660477::1765660984::1::::<><><>0<>0<>0bd67ee84aba0d7fad5ea08a06067cce<>res://godot/imported/mail-open-xmark-svgrepo-com.svg-4a7a1338125dc49e9b693c3e5cf7b046.ctex::
+mail-pencil-svgrepo-com.svg::CompressedTexture2D::6289459871760617109::1765660477::1765660984::1::::<><><>0<>0<>a07e1941e4ee612a4a6f7582a49dac96<>res://godot/imported/mail-pencil-svgrepo-com.svg-89f05e17cc95dbf679a60556316900ff.ctex::
+mail-plus-svgrepo-com.svg::CompressedTexture2D::345294210080571655::1765660477::1765660984::1::::<><><>0<>0<>0ec961ed6e56d81b94977411698d1f66<>res://godot/imported/mail-plus-svgrepo-com.svg-69643160d0f6b74323b67c4d1f8e8e9a.ctex::
+mail-refresh-svgrepo-com.svg::CompressedTexture2D::2096979169149306147::1765660477::1765660984::1::::<><><>0<>0<>4bd58ff75da81a6030d276f6aaa89b51<>res://godot/imported/mail-refresh-svgrepo-com.svg-dd0b737d44fcf6c808427e7ba56da00b.ctex::
+mail-search-svgrepo-com.svg::CompressedTexture2D::4350831767925249993::1765660477::1765660984::1::::<><><>0<>0<>daed2ae20129f01d1640fcedd0f651a2<>res://godot/imported/mail-search-svgrepo-com.svg-725278f19e448041217c1a18b799d932.ctex::
+mail-shield-svgrepo-com.svg::CompressedTexture2D::2607400242113434343::1765660477::1765660984::1::::<><><>0<>0<>a62ac5de19ff7dfd30968d9faabd5354<>res://godot/imported/mail-shield-svgrepo-com.svg-d0098c663744a82dafc80f8e816e03c4.ctex::
+mail-star-svgrepo-com.svg::CompressedTexture2D::5026730528258381257::1765660477::1765660984::1::::<><><>0<>0<>a14811cdf29f99a629f67f2fbcd6cb7b<>res://godot/imported/mail-star-svgrepo-com.svg-b4029d09f1909cb023db150a3a7ac190.ctex::
+mail-xmark-svgrepo-com.svg::CompressedTexture2D::3398839294147973601::1765660477::1765660984::1::::<><><>0<>0<>1aede525e1546a3d676b43402a1251be<>res://godot/imported/mail-xmark-svgrepo-com.svg-4363530ef38adcdaa9c44096cf65ba3c.ctex::
+::res://assets/videos/::1765660478
+01.ogv::VideoStreamTheora::2611298928760419352::1765660478::0::1::::<><><>0<>0<><>::
+02_fail.ogv::VideoStreamTheora::5639582595023313560::1765660478::0::1::::<><><>0<>0<><>::
+02_final.ogv::VideoStreamTheora::3885835819819841945::1765660478::0::1::::<><><>0<>0<><>::
+03.ogv::VideoStreamTheora::1966431629397969198::1765660478::0::1::::<><><>0<>0<><>::
+03_fail.ogv::VideoStreamTheora::4520885587317831517::1765660478::0::1::::<><><>0<>0<><>::
+rickroll-roll.ogv::VideoStreamTheora::2966135811773731235::1765660478::0::1::::<><><>0<>0<><>::
+::res://scenes/::1765660479
+01_ip.tscn::PackedScene::5297551490476810474::1765660479::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
+02_ip.tscn::PackedScene::782403196907386524::1765660479::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
+communications_menu.gd::GDScript::4307755353081432488::1765660479::0::1::::<>Control<><>0<>0<><>::
+communications_menu.tscn::PackedScene::6920850592217654742::1765660479::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scenes/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scenes/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
+comunication_label.gd::GDScript::5970171747433930076::1765660479::0::1::::<>Label<><>0<>0<><>::
+comunication_label_loading.gd::GDScript::1216291834314466374::1765660479::0::1::::<>Label<><>0<>0<><>::
+incorrect_02.tscn::PackedScene::716701344709521435::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://cok7bmesotexf::::res://assets/audios/02_fail.ogg<>uid://cml4dpg5x6x5y::::res://assets/videos/02_fail.ogv
+incorrect_03.tscn::PackedScene::7783500001783516420::1765660479::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://cyfved7c3rey8::::res://assets/audios/03_fail.ogg<>uid://b5n7lb3i3sqrl::::res://assets/videos/03_fail.ogv
+loading_01.tscn::PackedScene::2524338991806488852::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://c70mev1k7jmja::::res://assets/audios/01.ogg<>uid://bdg6yg5g63kgu::::res://assets/videos/01.ogv
+loading_02.tscn::PackedScene::9036091302537496039::1765660479::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://bb7qha68or1e5::::res://assets/audios/02_final.ogg<>uid://bvmlfbl3a0m0p::::res://assets/videos/02_final.ogv
+loading_03.tscn::PackedScene::1313029585077898039::1765660479::0::1::::<><><>0<>0<><>::uid://cq15f6pf3u72v::::res://scripts/loading_03.gd<>uid://dfc5twfdb6ehw::::res://assets/audios/03.ogg<>uid://3as3u6xyw7vu::::res://assets/videos/03.ogv
+mail_menu.tscn::PackedScene::4229160337257124605::1765660479::0::1::::<><><>0<>0<><>::uid://q330vjpx25pq::::res://scripts/mail_placeholder.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://d1jq6e4vnjb24::::res://assets/mail/mail-exclamation-svgrepo-com.svg
+menu.tscn::PackedScene::7479688109274832689::1765660479::0::1::::<><><>0<>0<><>::uid://dpeyf0lc3j1ix::::res://scripts/menu.gd<>uid://b1ivwgyjdjj7b::::res://scenes/mail_menu.tscn<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://bf7etnu7m52f3::::res://assets/mail/mail-alt-3-svgrepo-com.svg<>uid://bcguwey0tsy6h::::res://assets/audios/MainMenu.mp3<>uid://crb84ebasihxs::::res://scenes/comunication_label.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://c5urnshd54tmk::::res://scenes/communications_menu.tscn
+startup.tscn::PackedScene::3080380001933740649::1765660479::0::1::::<><><>0<>0<><>::uid://dc34vbtt550n4::::res://scripts/startup.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scenes/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png
+::res://scripts/::1765660984
+01_ip.gd::GDScript::1175871476647146124::1765660479::0::1::::<>Control<><>0<>0<><>::
+02_ip.gd::GDScript::5714453254423006755::1765660479::0::1::::<>Control<><>0<>0<><>::
+icon_cmd.svg::CompressedTexture2D::7804907881338045822::1765660479::1765660984::1::::<><><>0<>0<>256d28b42bea42760ebb976735dc9782<>res://godot/imported/icon_cmd.svg-aaf3cea2cee040b56cfb002e90641bd6.ctex::
+loading_01.gd::GDScript::7840423184765305298::1765660479::0::1::::<>Control<><>0<>0<><>::
+loading_02.gd::GDScript::1111307366598750138::1765660479::0::1::::<>Control<><>0<>0<><>::
+loading_03.gd::GDScript::5951368777614132075::1765660479::0::1::::<>Control<><>0<>0<><>::
+mail_placeholder.gd::GDScript::1182569913574231534::1765660479::0::1::::<>Control<><>0<>0<><>::
+menu.gd::GDScript::8221819683667222167::1765660479::0::1::::<>Control<><>0<>0<><>::
+startup.gd::GDScript::7359240692710477611::1765660479::0::1::::<>Node<><>0<>0<><>::

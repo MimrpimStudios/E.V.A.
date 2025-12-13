@@ -1,0 +1,127 @@
+[gd_scene load_steps=10 format=3 uid="uid://dethmue1jmaab"]
+
+[ext_resource type="Script" uid="uid://dpeyf0lc3j1ix" path="res://scripts/menu.gd" id="1_yqeox"]
+[ext_resource type="PackedScene" uid="uid://b1ivwgyjdjj7b" path="res://scenes/mail_menu.tscn" id="2_con2f"]
+[ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="2_vjb58"]
+[ext_resource type="Texture2D" uid="uid://bf7etnu7m52f3" path="res://assets/mail/mail-alt-3-svgrepo-com.svg" id="4_g3eks"]
+[ext_resource type="AudioStream" uid="uid://bcguwey0tsy6h" path="res://assets/audios/MainMenu.mp3" id="4_mhnvy"]
+[ext_resource type="Script" uid="uid://crb84ebasihxs" path="res://scripts/comunication_label.gd" id="5_13sgg"]
+[ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="5_v86rl"]
+[ext_resource type="PackedScene" uid="uid://c5urnshd54tmk" path="res://scenes/communications_menu.tscn" id="8_13sgg"]
+
+
+[sub_resource type="LabelSettings" id="LabelSettings_con2f"]
+font = ExtResource("2_vjb58")
+font_size = 32
+font_color = Color(0, 1, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_yqeox")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="MailMenu" parent="." instance=ExtResource("2_con2f")]
+visible = false
+layout_mode = 1
+
+[node name="menu" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MailLabel" type="Label" parent="menu"]
+layout_mode = 1
+offset_left = 71.0
+offset_top = 184.0
+offset_right = 123.0
+offset_bottom = 216.0
+text = "Mail"
+label_settings = SubResource("LabelSettings_con2f")
+uppercase = true
+
+[node name="MailButton" type="TextureButton" parent="menu/MailLabel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -49.0
+offset_top = -78.0
+offset_right = 47.0
+offset_bottom = 18.0
+grow_horizontal = 2
+texture_normal = ExtResource("4_g3eks")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Exit" type="Button" parent="menu"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -72.0
+offset_right = 123.0
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("2_vjb58")
+theme_override_font_sizes/font_size = 64
+text = "EXIT"
+
+[node name="ComunicationLabel" type="Label" parent="menu"]
+layout_mode = 0
+offset_left = 158.0
+offset_top = 184.0
+offset_right = 338.0
+offset_bottom = 216.0
+text = "Communications"
+label_settings = SubResource("LabelSettings_con2f")
+uppercase = true
+script = ExtResource("5_13sgg")
+
+[node name="ComunicationButton" type="TextureButton" parent="menu/ComunicationLabel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -33.0
+offset_top = -171.0
+offset_right = 143.0
+offset_bottom = 5.0
+grow_horizontal = 2
+texture_normal = ExtResource("5_v86rl")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Timer" type="Timer" parent="menu/ComunicationLabel"]
+wait_time = 0.5
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_mhnvy")
+autoplay = true
+
+[node name="CommunicationsMenu" parent="." instance=ExtResource("8_13sgg")]
+visible = false
+layout_mode = 1
+
+[connection signal="pressed" from="menu/MailLabel/MailButton" to="." method="_on_mail_button_pressed"]
+[connection signal="button_up" from="menu/Exit" to="." method="_on_exit_button_up"]
+[connection signal="mouse_entered" from="menu/ComunicationLabel/ComunicationButton" to="menu/ComunicationLabel" method="_on_comunication_button_mouse_entered"]
+[connection signal="mouse_exited" from="menu/ComunicationLabel/ComunicationButton" to="menu/ComunicationLabel" method="_on_comunication_button_mouse_exited"]
+[connection signal="pressed" from="menu/ComunicationLabel/ComunicationButton" to="." method="_on_comunication_button_pressed"]
+[connection signal="pressed" from="menu/ComunicationLabel/ComunicationButton" to="CommunicationsMenu" method="_on_comunication_button_pressed"]
+[connection signal="timeout" from="menu/ComunicationLabel/Timer" to="menu/ComunicationLabel" method="_on_timer_timeout"]
