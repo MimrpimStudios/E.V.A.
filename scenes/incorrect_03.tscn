@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://di5ndww1hklvo"]
+
+[ext_resource type="Script" uid="uid://p3lcm44g45es" path="res://scripts/loading_02.gd" id="1_b32kg"]
+[ext_resource type="AudioStream" uid="uid://cyfved7c3rey8" path="res://assets/audios/03_fail.ogg" id="2_x6yv8"]
+[ext_resource type="VideoStream" uid="uid://b5n7lb3i3sqrl" path="res://assets/videos/03_fail.ogv" id="3_b32kg"]
+
+[node name="Loading01" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_b32kg")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_x6yv8")
+autoplay = true
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stream = ExtResource("3_b32kg")
+volume_db = -80.0
+autoplay = true
+expand = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
