@@ -1,0 +1,70 @@
+[gd_scene load_steps=6 format=3 uid="uid://bj5fn5k61ei6l"]
+
+[ext_resource type="Script" uid="uid://dc34vbtt550n4" path="res://scripts/startup.gd" id="1_t87yh"]
+[ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="2_j40w7"]
+[ext_resource type="Script" uid="uid://rlgfca1okkmw" path="res://scenes/comunication_label_loading.gd" id="3_j40w7"]
+[ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="4_ifgkd"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_xl40u"]
+font = ExtResource("2_j40w7")
+font_size = 64
+font_color = Color(0, 1, 0, 1)
+
+[node name="Startup" type="Node"]
+script = ExtResource("1_t87yh")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="ComunicationLabel" type="Label" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -47.0
+offset_top = -16.0
+offset_right = 138.0
+offset_bottom = 48.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 64
+text = "loading"
+label_settings = SubResource("LabelSettings_xl40u")
+uppercase = true
+script = ExtResource("3_j40w7")
+
+[node name="ComunicationButton" type="TextureButton" parent="ComunicationLabel"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -77.5
+offset_top = -388.0
+offset_right = 290.5
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("4_ifgkd")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Timer" type="Timer" parent="ComunicationLabel"]
+wait_time = 0.5
+autostart = true
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+autostart = true
+
+[connection signal="mouse_entered" from="ComunicationLabel/ComunicationButton" to="ComunicationLabel" method="_on_comunication_button_mouse_entered"]
+[connection signal="mouse_exited" from="ComunicationLabel/ComunicationButton" to="ComunicationLabel" method="_on_comunication_button_mouse_exited"]
+[connection signal="timeout" from="ComunicationLabel/Timer" to="ComunicationLabel" method="_on_timer_timeout"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

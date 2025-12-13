@@ -1,0 +1,144 @@
+[gd_scene load_steps=7 format=3 uid="uid://lfacixr53wt5"]
+
+[ext_resource type="Script" uid="uid://cnoehfaa5h1t4" path="res://scripts/02_ip.gd" id="1_fhcex"]
+[ext_resource type="AudioStream" uid="uid://bhso40yr25fw8" path="res://assets/audios/readme_file.wav" id="2_sxwjo"]
+[ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="3_sxwjo"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_jxuew"]
+font = ExtResource("3_sxwjo")
+font_size = 32
+font_color = Color(0, 1, 0, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_k626s"]
+bg_color = Color(0, 0, 0, 0)
+
+[sub_resource type="LabelSettings" id="LabelSettings_k626s"]
+font = ExtResource("3_sxwjo")
+font_size = 64
+font_color = Color(0, 1, 0, 1)
+
+[node name="01Ip" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_fhcex")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="LineEdit" type="LineEdit" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -92.640625
+offset_top = -15.5
+offset_right = 92.640625
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("3_sxwjo")
+theme_override_font_sizes/font_size = 32
+placeholder_text = "Type IP..."
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_sxwjo")
+autoplay = true
+
+[node name="Button" type="Button" parent="AudioStreamPlayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -76.0
+offset_top = 22.5
+offset_right = 76.0
+offset_bottom = 53.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("3_sxwjo")
+theme_override_font_sizes/font_size = 32
+text = "Open README.TXT"
+flat = true
+
+[node name="Label" type="Label" parent="AudioStreamPlayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -176.5
+offset_top = -48.0
+offset_right = 176.5
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Please exam the README file"
+label_settings = SubResource("LabelSettings_jxuew")
+
+[node name="Reader" type="Panel" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_k626s")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Reader"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 135.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_sxwjo")
+theme_override_fonts/bold_font = ExtResource("3_sxwjo")
+theme_override_fonts/bold_italics_font = ExtResource("3_sxwjo")
+theme_override_fonts/italics_font = ExtResource("3_sxwjo")
+theme_override_fonts/mono_font = ExtResource("3_sxwjo")
+theme_override_font_sizes/normal_font_size = 64
+theme_override_font_sizes/bold_font_size = 64
+theme_override_font_sizes/bold_italics_font_size = 64
+theme_override_font_sizes/italics_font_size = 64
+theme_override_font_sizes/mono_font_size = 64
+text = "trrtrtgr"
+
+[node name="Label" type="Label" parent="Reader"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = 2.0
+offset_top = 70.0
+offset_bottom = 134.0
+grow_horizontal = 2
+text = "README.TXT"
+label_settings = SubResource("LabelSettings_k626s")
+
+[node name="Back" type="Button" parent="Reader"]
+layout_mode = 1
+offset_right = 123.0
+offset_bottom = 72.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("3_sxwjo")
+theme_override_font_sizes/font_size = 64
+text = "Back"
+
+[connection signal="text_submitted" from="ColorRect/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="pressed" from="AudioStreamPlayer/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Reader/Back" to="." method="_on_back_pressed"]

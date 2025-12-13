@@ -1,0 +1,162 @@
+[gd_scene load_steps=6 format=3 uid="uid://b1ivwgyjdjj7b"]
+
+[ext_resource type="Script" uid="uid://q330vjpx25pq" path="res://scripts/mail_placeholder.gd" id="1_lsh1x"]
+[ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="2_ngdbu"]
+[ext_resource type="Texture2D" uid="uid://d1jq6e4vnjb24" path="res://assets/mail/mail-exclamation-svgrepo-com.svg" id="3_jdxgc"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_lsh1x"]
+font = ExtResource("2_ngdbu")
+font_size = 128
+font_color = Color(0, 1, 0, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_8avxb"]
+font = ExtResource("2_ngdbu")
+font_size = 128
+font_color = Color(0, 1, 0, 1)
+
+[node name="MailMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_lsh1x")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Back" type="Button" parent="."]
+layout_mode = 1
+offset_right = 123.0
+offset_bottom = 72.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("2_ngdbu")
+theme_override_font_sizes/font_size = 64
+text = "Back"
+
+[node name="NoMailsLabel" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -329.5
+offset_top = -64.0
+offset_right = 329.5
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "NO NEW MAILS"
+label_settings = SubResource("LabelSettings_lsh1x")
+
+[node name="Control" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MailPlaceholder" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 76.0
+offset_right = 12960.0
+offset_bottom = 174.0
+grow_horizontal = 2
+flat = true
+
+[node name="MailName" type="Label" parent="Control/MailPlaceholder"]
+layout_mode = 1
+anchors_preset = 13
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -6396.0
+offset_top = -7.0
+offset_right = -5349.0
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "rtg"
+label_settings = SubResource("LabelSettings_8avxb")
+autowrap_trim_flags = 0
+clip_text = true
+text_overrun_behavior = 5
+uppercase = true
+
+[node name="MailButton" type="Button" parent="Control/MailPlaceholder"]
+layout_mode = 1
+anchors_preset = 9
+anchor_bottom = 1.0
+offset_right = 98.0
+grow_vertical = 2
+icon = ExtResource("3_jdxgc")
+expand_icon = true
+
+[node name="MailReader" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MailName" type="RichTextLabel" parent="MailReader"]
+layout_mode = 1
+anchors_preset = 10
+anchor_right = 1.0
+offset_top = 72.0
+offset_bottom = 153.0
+grow_horizontal = 2
+theme_override_colors/default_color = Color(0, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_ngdbu")
+theme_override_fonts/bold_font = ExtResource("2_ngdbu")
+theme_override_fonts/bold_italics_font = ExtResource("2_ngdbu")
+theme_override_fonts/italics_font = ExtResource("2_ngdbu")
+theme_override_fonts/mono_font = ExtResource("2_ngdbu")
+theme_override_font_sizes/normal_font_size = 64
+theme_override_font_sizes/bold_font_size = 64
+theme_override_font_sizes/bold_italics_font_size = 64
+theme_override_font_sizes/italics_font_size = 64
+theme_override_font_sizes/mono_font_size = 64
+text = "name"
+
+[node name="MailText" type="RichTextLabel" parent="MailReader"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 134.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 1, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_ngdbu")
+theme_override_fonts/bold_font = ExtResource("2_ngdbu")
+theme_override_fonts/bold_italics_font = ExtResource("2_ngdbu")
+theme_override_fonts/italics_font = ExtResource("2_ngdbu")
+theme_override_fonts/mono_font = ExtResource("2_ngdbu")
+theme_override_font_sizes/normal_font_size = 64
+theme_override_font_sizes/bold_font_size = 64
+theme_override_font_sizes/bold_italics_font_size = 64
+theme_override_font_sizes/italics_font_size = 64
+theme_override_font_sizes/mono_font_size = 64
+text = "content"
+
+[node name="BackMailList" type="Button" parent="MailReader"]
+layout_mode = 1
+offset_right = 8.0
+offset_bottom = 8.0
+theme_override_colors/font_color = Color(0, 1, 0, 1)
+theme_override_fonts/font = ExtResource("2_ngdbu")
+theme_override_font_sizes/font_size = 64
+text = "Back"
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="MailReader/BackMailList" to="." method="_on_back_mail_list_pressed"]

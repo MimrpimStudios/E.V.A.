@@ -1,0 +1,15 @@
+res://scenes/startup.gd
+res://scenes/startup.tscn
+res://scripts/01_ip.gd
+res://scripts/02_ip.gd
+res://scenes/02_ip.gd
+res://scripts/loading_01.gd
+res://scripts/loading_02.gd
+res://scripts/loading_03.gd
+res://scripts/menu.gd
+res://scenes/menu.tscn
+res://scripts/mail_placeholder.gd
+res://scenes/comunication_label.gd
+res://scenes/communications_menu.gd
+res://scenes/communications_menu.tscn
+res://scenes/comunication_label_loading.gd
