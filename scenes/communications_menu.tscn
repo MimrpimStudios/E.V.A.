@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="4_fhs0f"]
 [ext_resource type="VideoStream" uid="uid://bii2286l8j2yp" path="res://assets/videos/rickroll-roll.ogv" id="5_fhs0f"]
 
-
 [sub_resource type="LabelSettings" id="LabelSettings_l2855"]
 font = ExtResource("2_r881a")
 font_size = 64
@@ -46,6 +45,7 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 64
 text = "connecting..."
 label_settings = SubResource("LabelSettings_l2855")
+horizontal_alignment = 1
 uppercase = true
 script = ExtResource("3_t8lq2")
 
