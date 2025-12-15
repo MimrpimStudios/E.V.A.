@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765808725
+::res://::1765810196
 export_presets.cfg::TextFile::-1::1765660478::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4694586819433611686::1765660479::1765660985::1::::<><><>0<>0<>f7ff26010a2aa62004a6e18b985f423f<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 icon_cmd.svg::CompressedTexture2D::1420609500477984287::1765660479::1765660984::1::::<><><>0<>0<>f230c1107a9204643d3e1132fac217f3<>res://godot/imported/icon_cmd.svg-578833de4ed16b5b14f2cecea5d8134e.ctex::
@@ -61,10 +61,10 @@ mail-xmark-svgrepo-com.svg::CompressedTexture2D::3398839294147973601::1765660477
 03_fail.ogv::VideoStreamTheora::4520885587317831517::1765660478::0::1::::<><><>0<>0<><>::
 rickroll-roll.ogv::VideoStreamTheora::2966135811773731235::1765660478::0::1::::<><><>0<>0<><>::
 ::res://docs/::1765661845
-::res://scenes/::1765661748
+::res://scenes/::1765809484
 01_ip.tscn::PackedScene::5297551490476810474::1765660479::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
 02_ip.tscn::PackedScene::782403196907386524::1765660479::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
-communications_menu.tscn::PackedScene::6920850592217654742::1765661748::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scripts/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
+communications_menu.tscn::PackedScene::6920850592217654742::1765809484::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scripts/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
 incorrect_02.tscn::PackedScene::716701344709521435::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://cok7bmesotexf::::res://assets/audios/02_fail.ogg<>uid://cml4dpg5x6x5y::::res://assets/videos/02_fail.ogv
 incorrect_03.tscn::PackedScene::7783500001783516420::1765660479::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://cyfved7c3rey8::::res://assets/audios/03_fail.ogg<>uid://b5n7lb3i3sqrl::::res://assets/videos/03_fail.ogv
 loading_01.tscn::PackedScene::2524338991806488852::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://c70mev1k7jmja::::res://assets/audios/01.ogg<>uid://bdg6yg5g63kgu::::res://assets/videos/01.ogv

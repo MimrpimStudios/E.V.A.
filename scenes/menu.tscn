@@ -9,7 +9,6 @@
 [ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="5_v86rl"]
 [ext_resource type="PackedScene" uid="uid://c5urnshd54tmk" path="res://scenes/communications_menu.tscn" id="8_13sgg"]
 
-
 [sub_resource type="LabelSettings" id="LabelSettings_con2f"]
 font = ExtResource("2_vjb58")
 font_size = 32
@@ -83,7 +82,7 @@ theme_override_font_sizes/font_size = 64
 text = "EXIT"
 
 [node name="ComunicationLabel" type="Label" parent="menu"]
-layout_mode = 0
+layout_mode = 1
 offset_left = 158.0
 offset_top = 184.0
 offset_right = 338.0

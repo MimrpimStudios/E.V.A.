@@ -17,7 +17,7 @@ func _ready() -> void:
 	content.hide()
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
 
 
@@ -30,7 +30,7 @@ func _on_back_pressed() -> void:
 func _on_timer_2_timeout() -> void:
 	if count == 1:
 		comunication_label.set_text("downloading...")
-		timer_2.wait_time = 10
+		timer_2.wait_time = RandomNumberGenerator.new().randf_range(5.0, 10.0)
 		timer_2.start()
 		count = 2
 		comunication_label.phase_satelite = 0
@@ -40,7 +40,7 @@ func _on_timer_2_timeout() -> void:
 		comunication_label.phase_satelite = 0
 		comunication_label._on_timer_timeout()
 		count = 3
-		timer_2.wait_time = 3
+		timer_2.wait_time = RandomNumberGenerator.new().randf_range(0.5, 3.0)
 		timer_2.start()
 	elif count == 3:
 		comunication_label.hide()
@@ -51,4 +51,5 @@ func _on_timer_2_timeout() -> void:
 
 func _on_comunication_button_pressed() -> void:
 	timer.start()
+	timer_2.wait_time = RandomNumberGenerator.new().randf_range(5.0, 8.0)
 	timer_2.start()

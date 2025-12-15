@@ -5,7 +5,6 @@
 [ext_resource type="Script" uid="uid://rlgfca1okkmw" path="res://scripts/comunication_label_loading.gd" id="3_j40w7"]
 [ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="4_ifgkd"]
 
-
 [sub_resource type="LabelSettings" id="LabelSettings_xl40u"]
 font = ExtResource("2_j40w7")
 font_size = 64
@@ -28,14 +27,14 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -47.0
-offset_top = -16.0
-offset_right = 138.0
-offset_bottom = 48.0
+offset_left = -92.5
+offset_top = -32.0
+offset_right = 92.5
+offset_bottom = 32.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_font_sizes/font_size = 64
-text = "loading"
+text = "loading..."
 label_settings = SubResource("LabelSettings_xl40u")
 uppercase = true
 script = ExtResource("3_j40w7")
@@ -63,7 +62,6 @@ autostart = true
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 1.5
-autostart = true
 
 [connection signal="mouse_entered" from="ComunicationLabel/ComunicationButton" to="ComunicationLabel" method="_on_comunication_button_mouse_entered"]
 [connection signal="mouse_exited" from="ComunicationLabel/ComunicationButton" to="ComunicationLabel" method="_on_comunication_button_mouse_exited"]
