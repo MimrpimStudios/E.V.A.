@@ -24,7 +24,7 @@ func _process(_delta: float) -> void:
 	pass
 
 
-func _on_line_edit_text_submitted(new_text: String) -> void:
+func _on_line_edit_text_submitted(_new_text: String) -> void:
 	print(str(line_edit.text))
 	line_edit.hide()
 	if line_edit.text == "192.168.0.1":

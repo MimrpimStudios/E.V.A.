@@ -147,8 +147,8 @@ func _ready() -> void:
 		print("NALEZENO SOUBORŮ: " + str(file_count))
 		
 		if file_count == 0:
-			no_mails_label.show()
-			_hide_dynamically_created_mails() # Skryjeme případné dříve vytvořené e-maily
+			# Zde je volána _show_main_view_elements(), aby se zajistilo správné zobrazení NoMailsLabel
+			pass # Logiku zobrazení ponecháme na konci
 		else:
 			# Iterace přes nalezené soubory pro vytvoření uzlů
 			for i in file_names.size():
@@ -206,6 +206,10 @@ func _ready() -> void:
 	
 	# Zabezpečení: Skrytí placeholderu po vytvoření seznamu
 	mail_placeholder.hide()
+	
+	# DŮLEŽITÁ OPRAVA: Po inicializaci a vytvoření e-mailů zajistíme, že je zobrazen správný stav.
+	_show_main_view_elements() # <--- PŘIDÁNO/PŘESUNUTO SEM
+
 
 # Helper pro skrytí dynamicky vytvořených e-mailů
 func _hide_dynamically_created_mails():
@@ -219,18 +223,22 @@ func _show_dynamically_created_mails():
 
 # Skryje prvky seznamu e-mailů (hlavní pohled)
 func _hide_main_view_elements():
+	# Skryjeme label prázdné schránky
 	no_mails_label.hide()
-	_hide_dynamically_created_mails() # Skrýváme jednotlivé e-mailové položky
+	# Skrýváme jednotlivé e-mailové položky
+	_hide_dynamically_created_mails() 
 
 # Zobrazí prvky seznamu e-mailů (hlavní pohled)
+# OPRAVENO: Správná logika pro zobrazení/skrytí NoMailsLabel a e-mailů
 func _show_main_view_elements():
 	# Zkontrolujeme, zda se má zobrazit NoMailsLabel nebo dynamické e-maily
 	if dynamically_created_mails.is_empty():
 		no_mails_label.show()
-		_hide_dynamically_created_mails()
+		_hide_dynamically_created_mails() # Skryje vše, ukáže label
 	else:
-		_show_dynamically_created_mails()
-		no_mails_label.hide()
+		_show_dynamically_created_mails() # Ukáže e-maily
+		no_mails_label.hide() # Skryje label prázdné schránky
+
 
 # Přejde do pohledu čtečky (Zprávy) a načte obsah
 func _go_to_reader(mail_file_name: String) -> void:
@@ -292,3 +300,4 @@ func _on_back_pressed() -> void:
 	#get_tree().change_scene_to_file("res://scenes/menu.tscn")
 	mail_menu.hide()
 	$"../menu".show()
+	$".."._update_mail_state()

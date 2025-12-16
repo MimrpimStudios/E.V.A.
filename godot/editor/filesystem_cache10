@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765810196
+::res://::1765909799
 export_presets.cfg::TextFile::-1::1765660478::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4694586819433611686::1765660479::1765660985::1::::<><><>0<>0<>f7ff26010a2aa62004a6e18b985f423f<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 icon_cmd.svg::CompressedTexture2D::1420609500477984287::1765660479::1765660984::1::::<><><>0<>0<>f230c1107a9204643d3e1132fac217f3<>res://godot/imported/icon_cmd.svg-578833de4ed16b5b14f2cecea5d8134e.ctex::
@@ -61,8 +61,8 @@ mail-xmark-svgrepo-com.svg::CompressedTexture2D::3398839294147973601::1765660477
 03_fail.ogv::VideoStreamTheora::4520885587317831517::1765660478::0::1::::<><><>0<>0<><>::
 rickroll-roll.ogv::VideoStreamTheora::2966135811773731235::1765660478::0::1::::<><><>0<>0<><>::
 ::res://docs/::1765661845
-::res://scenes/::1765809484
-01_ip.tscn::PackedScene::5297551490476810474::1765660479::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
+::res://scenes/::1765909435
+01_ip.tscn::PackedScene::5297551490476810474::1765811440::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
 02_ip.tscn::PackedScene::782403196907386524::1765660479::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
 communications_menu.tscn::PackedScene::6920850592217654742::1765809484::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scripts/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
 incorrect_02.tscn::PackedScene::716701344709521435::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://cok7bmesotexf::::res://assets/audios/02_fail.ogg<>uid://cml4dpg5x6x5y::::res://assets/videos/02_fail.ogv
@@ -70,19 +70,19 @@ incorrect_03.tscn::PackedScene::7783500001783516420::1765660479::0::1::::<><><>0
 loading_01.tscn::PackedScene::2524338991806488852::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://c70mev1k7jmja::::res://assets/audios/01.ogg<>uid://bdg6yg5g63kgu::::res://assets/videos/01.ogv
 loading_02.tscn::PackedScene::9036091302537496039::1765660479::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://bb7qha68or1e5::::res://assets/audios/02_final.ogg<>uid://bvmlfbl3a0m0p::::res://assets/videos/02_final.ogv
 loading_03.tscn::PackedScene::1313029585077898039::1765660479::0::1::::<><><>0<>0<><>::uid://cq15f6pf3u72v::::res://scripts/loading_03.gd<>uid://dfc5twfdb6ehw::::res://assets/audios/03.ogg<>uid://3as3u6xyw7vu::::res://assets/videos/03.ogv
-mail_menu.tscn::PackedScene::4229160337257124605::1765660479::0::1::::<><><>0<>0<><>::uid://q330vjpx25pq::::res://scripts/mail_placeholder.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://d1jq6e4vnjb24::::res://assets/mail/mail-exclamation-svgrepo-com.svg
-menu.tscn::PackedScene::7479688109274832689::1765661748::0::1::::<><><>0<>0<><>::uid://dpeyf0lc3j1ix::::res://scripts/menu.gd<>uid://b1ivwgyjdjj7b::::res://scenes/mail_menu.tscn<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://bf7etnu7m52f3::::res://assets/mail/mail-alt-3-svgrepo-com.svg<>uid://bcguwey0tsy6h::::res://assets/audios/MainMenu.mp3<>uid://crb84ebasihxs::::res://scripts/comunication_label.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://c5urnshd54tmk::::res://scenes/communications_menu.tscn
-startup.tscn::PackedScene::3080380001933740649::1765661748::0::1::::<><><>0<>0<><>::uid://dc34vbtt550n4::::res://scripts/startup.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png
-::res://scripts/::1765661748
-01_ip.gd::GDScript::1175871476647146124::1765660479::0::1::::<>Control<><>0<>0<><>::
+mail_menu.tscn::PackedScene::4229160337257124605::1765909435::0::1::::<><><>0<>0<><>::uid://q330vjpx25pq::::res://scripts/mail_placeholder.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://d1jq6e4vnjb24::::res://assets/mail/mail-exclamation-svgrepo-com.svg
+menu.tscn::PackedScene::7479688109274832689::1765810953::0::1::::<><><>0<>0<><>::uid://dpeyf0lc3j1ix::::res://scripts/menu.gd<>uid://b1ivwgyjdjj7b::::res://scenes/mail_menu.tscn<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://bf7etnu7m52f3::::res://assets/mail/mail-alt-3-svgrepo-com.svg<>uid://bcguwey0tsy6h::::res://assets/audios/MainMenu.mp3<>uid://crb84ebasihxs::::res://scripts/comunication_label.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://c5urnshd54tmk::::res://scenes/communications_menu.tscn
+startup.tscn::PackedScene::3080380001933740649::1765810512::0::1::::<><><>0<>0<><>::uid://dc34vbtt550n4::::res://scripts/startup.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png
+::res://scripts/::1765909337
+01_ip.gd::GDScript::1175871476647146124::1765811440::0::1::::<>Control<><>0<>0<><>::
 02_ip.gd::GDScript::5714453254423006755::1765660479::0::1::::<>Control<><>0<>0<><>::
-communications_menu.gd::GDScript::4307755353081432488::1765661748::0::1::::<>Control<><>0<>0<><>::
-comunication_label.gd::GDScript::5970171747433930076::1765661748::0::1::::<>Label<><>0<>0<><>::
-comunication_label_loading.gd::GDScript::1216291834314466374::1765661748::0::1::::<>Label<><>0<>0<><>::
+communications_menu.gd::GDScript::4307755353081432488::1765810753::0::1::::<>Control<><>0<>0<><>::
+comunication_label.gd::GDScript::5970171747433930076::1765810753::0::1::::<>Label<><>0<>0<><>::
+comunication_label_loading.gd::GDScript::1216291834314466374::1765810753::0::1::::<>Label<><>0<>0<><>::
 icon_cmd.svg::CompressedTexture2D::7804907881338045822::1765660479::1765660984::1::::<><><>0<>0<>256d28b42bea42760ebb976735dc9782<>res://godot/imported/icon_cmd.svg-aaf3cea2cee040b56cfb002e90641bd6.ctex::
 loading_01.gd::GDScript::7840423184765305298::1765660479::0::1::::<>Control<><>0<>0<><>::
 loading_02.gd::GDScript::1111307366598750138::1765660479::0::1::::<>Control<><>0<>0<><>::
 loading_03.gd::GDScript::5951368777614132075::1765660479::0::1::::<>Control<><>0<>0<><>::
-mail_placeholder.gd::GDScript::1182569913574231534::1765660479::0::1::::<>Control<><>0<>0<><>::
+mail_placeholder.gd::GDScript::1182569913574231534::1765909337::0::1::::<>Control<><>0<>0<><>::
 menu.gd::GDScript::8221819683667222167::1765660479::0::1::::<>Control<><>0<>0<><>::
-startup.gd::GDScript::7359240692710477611::1765660479::0::1::::<>Node<><>0<>0<><>::
+startup.gd::GDScript::7359240692710477611::1765810512::0::1::::<>Node<><>0<>0<><>::
