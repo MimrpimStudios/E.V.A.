@@ -1,6 +1,0 @@
-res://scenes/startup.tscn
-res://scripts/startup.gd
-res://scripts/communications_menu.gd
-res://scripts/comunication_label.gd
-res://scripts/comunication_label_loading.gd
-res://scenes/menu.tscn
