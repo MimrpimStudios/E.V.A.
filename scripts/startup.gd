@@ -80,7 +80,3 @@ func ready_run():
 
 func _on_timer_timeout() -> void:
 	ready_run()
-
-func _ready() -> void:
-	$Timer.wait_time = RandomNumberGenerator.new().randf_range(0.5, 5.5)
-	$Timer.start()

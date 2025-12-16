@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://c5urnshd54tmk"]
 
-[ext_resource type="Script" uid="uid://b2mydpdjijbdw" path="res://scripts/communications_menu.gd" id="1_mfnqg"]
+[ext_resource type="Script" uid="uid://b2mydpdjijbdw" path="res://scenes/communications_menu.gd" id="1_mfnqg"]
 [ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="2_r881a"]
-[ext_resource type="Script" uid="uid://rlgfca1okkmw" path="res://scripts/comunication_label_loading.gd" id="3_t8lq2"]
+[ext_resource type="Script" uid="uid://rlgfca1okkmw" path="res://scenes/comunication_label_loading.gd" id="3_t8lq2"]
 [ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="4_fhs0f"]
 [ext_resource type="VideoStream" uid="uid://bii2286l8j2yp" path="res://assets/videos/rickroll-roll.ogv" id="5_fhs0f"]
 
@@ -45,7 +45,6 @@ grow_vertical = 2
 theme_override_font_sizes/font_size = 64
 text = "connecting..."
 label_settings = SubResource("LabelSettings_l2855")
-horizontal_alignment = 1
 uppercase = true
 script = ExtResource("3_t8lq2")
 

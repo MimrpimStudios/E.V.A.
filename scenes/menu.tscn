@@ -5,7 +5,7 @@
 [ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="2_vjb58"]
 [ext_resource type="Texture2D" uid="uid://bf7etnu7m52f3" path="res://assets/mail/mail-alt-3-svgrepo-com.svg" id="4_g3eks"]
 [ext_resource type="AudioStream" uid="uid://bcguwey0tsy6h" path="res://assets/audios/MainMenu.mp3" id="4_mhnvy"]
-[ext_resource type="Script" uid="uid://crb84ebasihxs" path="res://scripts/comunication_label.gd" id="5_13sgg"]
+[ext_resource type="Script" uid="uid://crb84ebasihxs" path="res://scenes/comunication_label.gd" id="5_13sgg"]
 [ext_resource type="Texture2D" uid="uid://cowull0ush6fm" path="res://assets/icons/satelite.png" id="5_v86rl"]
 [ext_resource type="PackedScene" uid="uid://c5urnshd54tmk" path="res://scenes/communications_menu.tscn" id="8_13sgg"]
 
@@ -82,7 +82,7 @@ theme_override_font_sizes/font_size = 64
 text = "EXIT"
 
 [node name="ComunicationLabel" type="Label" parent="menu"]
-layout_mode = 1
+layout_mode = 0
 offset_left = 158.0
 offset_top = 184.0
 offset_right = 338.0
