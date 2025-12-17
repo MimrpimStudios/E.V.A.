@@ -8,6 +8,7 @@ extends Control
 @onready var rich_text_label: RichTextLabel = $Reader/RichTextLabel
 @onready var label2: Label = $Reader/Label
 @onready var back: Button = $Reader/Back
+@onready var submit_button: Button = $ColorRect/LineEdit/SubmitButton
 var content = "IP for old EVA: 192.168.0.1
 IP for new EVA: 192.168.1.1"
 
@@ -24,7 +25,7 @@ func _process(_delta: float) -> void:
 	pass
 
 
-func _on_line_edit_text_submitted(new_text: String) -> void:
+func _on_line_edit_text_submitted(_new_text: String) -> void:
 	print(str(line_edit.text))
 	line_edit.hide()
 	if line_edit.text == "192.168.0.1":
@@ -64,3 +65,7 @@ func _on_back_pressed() -> void:
 	line_edit.show()
 	button.show()
 	label.show()
+
+
+func _on_submit_button_pressed() -> void:
+	_on_line_edit_text_submitted(line_edit.text)

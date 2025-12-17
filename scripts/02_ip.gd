@@ -12,9 +12,9 @@ extends Control
 
 const scene_correct = "res://scenes/loading_03.tscn"
 const scene_incorrect = "res://scenes/incorrect_03.tscn"
+var path = "user://README.TXT"
 var content = "IP for old EVA: 192.168.0.1
 IP for new EVA: 192.168.1.1"
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	reader.hide()
@@ -25,7 +25,7 @@ func _process(_delta: float) -> void:
 	pass
 
 
-func _on_line_edit_text_submitted(new_text: String) -> void:
+func _on_line_edit_text_submitted(_new_text: String) -> void:
 	print(str(line_edit.text))
 	line_edit.hide()
 	if line_edit.text == "192.168.1.1":
@@ -45,10 +45,6 @@ func _on_button_pressed() -> void:
 	label.hide()
 
 func write_to_readme():
-	# 1. Definuj cestu a text
-	var path = "user://README.TXT"
-	var content = "IP for old EVA: 192.168.0.1
-IP for new EVA: 192.168.1.1"
 	# 2. Vytvoř nový objekt FileAccess
 	var file = FileAccess.open(path, FileAccess.WRITE)
 	# Zkontroluje, jestli se soubor otevřel správně
@@ -66,3 +62,7 @@ func _on_back_pressed() -> void:
 	line_edit.show()
 	button.show()
 	label.show()
+
+
+func _on_submit_button_pressed() -> void:
+	_on_line_edit_text_submitted(line_edit.text)
