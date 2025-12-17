@@ -16,3 +16,7 @@ func _process(_delta: float) -> void:
 
 func _on_video_stream_player_finished() -> void:
 	get_tree().change_scene_to_file(scene_next)
+
+func _input(_event: InputEvent) -> void:
+	if Input.is_action_just_pressed("esc"):
+		_on_video_stream_player_finished()
