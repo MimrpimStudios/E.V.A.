@@ -109,6 +109,30 @@ stretch_mode = 0
 [node name="Timer" type="Timer" parent="menu/ComunicationLabel"]
 wait_time = 0.5
 
+[node name="ExplorerLabel" type="Label" parent="menu"]
+layout_mode = 1
+offset_left = 384.0
+offset_top = 184.0
+offset_right = 436.0
+offset_bottom = 216.0
+text = "Mail"
+label_settings = SubResource("LabelSettings_con2f")
+uppercase = true
+
+[node name="ExplorerButton" type="TextureButton" parent="menu/ExplorerLabel"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -49.0
+offset_top = -78.0
+offset_right = 47.0
+offset_bottom = 18.0
+grow_horizontal = 2
+texture_normal = ExtResource("4_g3eks")
+ignore_texture_size = true
+stretch_mode = 0
+
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("4_mhnvy")
 autoplay = true
@@ -124,3 +148,4 @@ layout_mode = 1
 [connection signal="pressed" from="menu/ComunicationLabel/ComunicationButton" to="." method="_on_comunication_button_pressed"]
 [connection signal="pressed" from="menu/ComunicationLabel/ComunicationButton" to="CommunicationsMenu" method="_on_comunication_button_pressed"]
 [connection signal="timeout" from="menu/ComunicationLabel/Timer" to="menu/ComunicationLabel" method="_on_timer_timeout"]
+[connection signal="pressed" from="menu/ExplorerLabel/ExplorerButton" to="." method="_on_explorer_button_pressed"]

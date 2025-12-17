@@ -12,6 +12,8 @@ extends Control
 @onready var comunication_button: TextureButton = $menu/ComunicationLabel/ComunicationButton
 @onready var audio_stream_player: AudioStreamPlayer = $AudioStreamPlayer
 @onready var communications_menu: Control = $CommunicationsMenu
+@onready var explorer_label: Label = $menu/ExplorerLabel
+@onready var explorer_button: TextureButton = $menu/ExplorerLabel/ExplorerButton
 
 
 # Konstanta pro cestu k adresáři
@@ -159,3 +161,7 @@ func _on_exit_button_up() -> void:
 func _on_comunication_button_pressed() -> void:
 	communications_menu.show()
 	menu.hide()
+
+
+func _on_explorer_button_pressed() -> void:
+	pass # Replace with function body.
