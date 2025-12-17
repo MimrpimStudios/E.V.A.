@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://lfacixr53wt5"]
+[gd_scene load_steps=8 format=3 uid="uid://lfacixr53wt5"]
 
 [ext_resource type="Script" uid="uid://cnoehfaa5h1t4" path="res://scripts/02_ip.gd" id="1_fhcex"]
 [ext_resource type="AudioStream" uid="uid://bhso40yr25fw8" path="res://assets/audios/readme_file.wav" id="2_sxwjo"]
+[ext_resource type="Texture2D" uid="uid://cietqqanbta6o" path="res://assets/icons/arrow_left.png" id="3_nr3u0"]
 [ext_resource type="FontFile" uid="uid://cpww7cn3jlfhh" path="res://assets/fonts/C&C Red Alert [INET].ttf" id="3_sxwjo"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_jxuew"]
@@ -51,6 +52,14 @@ grow_vertical = 2
 theme_override_fonts/font = ExtResource("3_sxwjo")
 theme_override_font_sizes/font_size = 32
 placeholder_text = "Type IP..."
+
+[node name="SubmitButton" type="Button" parent="ColorRect/LineEdit"]
+layout_mode = 0
+offset_left = 194.64063
+offset_right = 232.64063
+offset_bottom = 38.0
+icon = ExtResource("3_nr3u0")
+expand_icon = true
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_sxwjo")
@@ -140,5 +149,6 @@ theme_override_font_sizes/font_size = 64
 text = "Back"
 
 [connection signal="text_submitted" from="ColorRect/LineEdit" to="." method="_on_line_edit_text_submitted"]
+[connection signal="pressed" from="ColorRect/LineEdit/SubmitButton" to="." method="_on_submit_button_pressed"]
 [connection signal="pressed" from="AudioStreamPlayer/Button" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="Reader/Back" to="." method="_on_back_pressed"]
