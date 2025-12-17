@@ -1,6 +1,6 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1765984983
-export_presets.cfg::TextFile::-1::1765910600::0::1::::<><><>0<>0<><>::
+::res://::1765986525
+export_presets.cfg::TextFile::-1::1765986156::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4694586819433611686::1765660479::1765660985::1::::<><><>0<>0<>f7ff26010a2aa62004a6e18b985f423f<>res://godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 icon_cmd.svg::CompressedTexture2D::1420609500477984287::1765660479::1765660984::1::::<><><>0<>0<>f230c1107a9204643d3e1132fac217f3<>res://godot/imported/icon_cmd.svg-578833de4ed16b5b14f2cecea5d8134e.ctex::
 README.md::TextFile::-1::1765530822::0::1::::<><><>0<>0<><>::
@@ -17,7 +17,7 @@ readme_file.wav::AudioStreamWAV::2915804565623104737::1765660477::1765660986::1:
 ::res://assets/fonts/::1765660983
 C&C Red Alert [INET].ttf::FontFile::5872483378205636785::1765660477::1765660983::1::::<><><>0<>0<>0b852c3b9870b43df22f041e493a9315<>res://godot/imported/C&C Red Alert [INET].ttf-d2bcc4961852cd5f846629f2e5689461.fontdata::
 C&C Red Alert [LAN].ttf::FontFile::8263620856737559849::1765660477::1765660983::1::::<><><>0<>0<>f3b9eff9adc449bafab789ac0c6afa9c<>res://godot/imported/C&C Red Alert [LAN].ttf-eac65f4b192bb2ea843230e794588495.fontdata::
-::res://assets/icons/::1765985211
+::res://assets/icons/::1765985216
 arrow_left.png::CompressedTexture2D::5343792664038088436::1765985211::1765985216::1::::<><><>0<>0<>2aa65a8aaf3a4a9f9ba88377f4f5af65<>res://godot/imported/arrow_left.png-9db032e087fb76a48b03fa866d51c0b0.ctex::
 satelite1.png::CompressedTexture2D::404942241545024727::1765660477::1765660984::1::::<><><>0<>0<>99260ec780ab2775238cae9f3bed1b9c<>res://godot/imported/satelite1.png-fdf3b24db1e9dac3993fa64e12cd1882.ctex::
 satelite2.png::CompressedTexture2D::7649952374852248483::1765660477::1765660984::1::::<><><>0<>0<>d1ddce1200fe6d5041c73e4ba1e43a26<>res://godot/imported/satelite2.png-e156607a90c77828697f26a9edefce80.ctex::
@@ -62,9 +62,9 @@ mail-xmark-svgrepo-com.svg::CompressedTexture2D::3398839294147973601::1765660477
 03_fail.ogv::VideoStreamTheora::4520885587317831517::1765660478::0::1::::<><><>0<>0<><>::
 rickroll-roll.ogv::VideoStreamTheora::2966135811773731235::1765660478::0::1::::<><><>0<>0<><>::
 ::res://docs/::1765661845
-::res://scenes/::1765910441
-01_ip.tscn::PackedScene::5297551490476810474::1765811440::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
-02_ip.tscn::PackedScene::782403196907386524::1765660479::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
+::res://scenes/::1765986229
+01_ip.tscn::PackedScene::5297551490476810474::1765986229::0::1::::<><><>0<>0<><>::uid://q0uowywvmk41::::res://scripts/01_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://cietqqanbta6o::::res://assets/icons/arrow_left.png
+02_ip.tscn::PackedScene::782403196907386524::1765986229::0::1::::<><><>0<>0<><>::uid://cnoehfaa5h1t4::::res://scripts/02_ip.gd<>uid://bhso40yr25fw8::::res://assets/audios/readme_file.wav<>uid://cietqqanbta6o::::res://assets/icons/arrow_left.png<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf
 communications_menu.tscn::PackedScene::6920850592217654742::1765809484::0::1::::<><><>0<>0<><>::uid://b2mydpdjijbdw::::res://scripts/communications_menu.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://bii2286l8j2yp::::res://assets/videos/rickroll-roll.ogv
 incorrect_02.tscn::PackedScene::716701344709521435::1765660479::0::1::::<><><>0<>0<><>::uid://djx7vh0tjybgs::::res://scripts/loading_01.gd<>uid://cok7bmesotexf::::res://assets/audios/02_fail.ogg<>uid://cml4dpg5x6x5y::::res://assets/videos/02_fail.ogv
 incorrect_03.tscn::PackedScene::7783500001783516420::1765660479::0::1::::<><><>0<>0<><>::uid://p3lcm44g45es::::res://scripts/loading_02.gd<>uid://cyfved7c3rey8::::res://assets/audios/03_fail.ogg<>uid://b5n7lb3i3sqrl::::res://assets/videos/03_fail.ogv
@@ -74,9 +74,9 @@ loading_03.tscn::PackedScene::1313029585077898039::1765660479::0::1::::<><><>0<>
 mail_menu.tscn::PackedScene::4229160337257124605::1765910441::0::1::::<><><>0<>0<><>::uid://q330vjpx25pq::::res://scripts/mail_placeholder.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://d1jq6e4vnjb24::::res://assets/mail/mail-exclamation-svgrepo-com.svg
 menu.tscn::PackedScene::7479688109274832689::1765810953::0::1::::<><><>0<>0<><>::uid://dpeyf0lc3j1ix::::res://scripts/menu.gd<>uid://b1ivwgyjdjj7b::::res://scenes/mail_menu.tscn<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://bf7etnu7m52f3::::res://assets/mail/mail-alt-3-svgrepo-com.svg<>uid://bcguwey0tsy6h::::res://assets/audios/MainMenu.mp3<>uid://crb84ebasihxs::::res://scripts/comunication_label.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png<>uid://c5urnshd54tmk::::res://scenes/communications_menu.tscn
 startup.tscn::PackedScene::3080380001933740649::1765810512::0::1::::<><><>0<>0<><>::uid://dc34vbtt550n4::::res://scripts/startup.gd<>uid://cpww7cn3jlfhh::::res://assets/fonts/C&C Red Alert [INET].ttf<>uid://rlgfca1okkmw::::res://scripts/comunication_label_loading.gd<>uid://cowull0ush6fm::::res://assets/icons/satelite.png
-::res://scripts/::1765910441
-01_ip.gd::GDScript::1175871476647146124::1765910441::0::1::::<>Control<><>0<>0<><>::
-02_ip.gd::GDScript::5714453254423006755::1765660479::0::1::::<>Control<><>0<>0<><>::
+::res://scripts/::1765985620
+01_ip.gd::GDScript::1175871476647146124::1765985620::0::1::::<>Control<><>0<>0<><>::
+02_ip.gd::GDScript::5714453254423006755::1765985620::0::1::::<>Control<><>0<>0<><>::
 communications_menu.gd::GDScript::4307755353081432488::1765810753::0::1::::<>Control<><>0<>0<><>::
 comunication_label.gd::GDScript::5970171747433930076::1765810753::0::1::::<>Label<><>0<>0<><>::
 comunication_label_loading.gd::GDScript::1216291834314466374::1765810753::0::1::::<>Label<><>0<>0<><>::
